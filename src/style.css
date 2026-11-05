@@ -1,0 +1,178 @@
+/* ==========================================================
+   Base : rien à modifier ici
+   ========================================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: #fbfaf8;
+  color: #14161a;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+h2 {
+  margin: 64px 0 16px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+h2:first-of-type {
+  margin-top: 0;
+}
+
+header,
+nav,
+main,
+aside,
+footer,
+.layout-b > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+header {
+  min-height: 72px;
+  background-color: #2f6bff;
+}
+
+nav {
+  min-height: 64px;
+  background-color: #ff6b4a;
+}
+
+main {
+  min-height: 200px;
+  background-color: #ffc93c;
+  color: #14161a;
+}
+
+aside {
+  min-height: 120px;
+  background-color: #a78bfa;
+}
+
+footer {
+  min-height: 64px;
+  background-color: #16a97a;
+}
+
+.bandeau {
+  min-height: 64px;
+  background-color: #2f6bff;
+}
+
+.layout-b > .visuel {
+  min-height: 204px;
+  background-color: #ffc93c;
+  color: #14161a;
+}
+
+.note {
+  min-height: 96px;
+  background-color: #ff6b4a;
+}
+
+.action {
+  min-height: 96px;
+  background-color: #16a97a;
+}
+
+.legende {
+  min-height: 80px;
+  background-color: #a78bfa;
+}
+
+.detail {
+  min-height: 112px;
+  background-color: #2f6bff;
+}
+
+.suite {
+  min-height: 112px;
+  background-color: #ff6b4a;
+}
+
+/* ==========================================================
+   À compléter : les deux grilles
+   D'abord les versions mobile, sans media query.
+   Puis une seule media query pour les versions desktop.
+   ========================================================== */
+
+.layout {
+  /* à compléter */
+}
+
+header {
+  /* à compléter */
+}
+
+nav {
+  /* à compléter */
+}
+
+main {
+  /* à compléter */
+}
+
+aside {
+  /* à compléter */
+}
+
+footer {
+  /* à compléter */
+}
+
+.layout-b {
+  /* à compléter */
+}
+
+.bandeau {
+  /* à compléter */
+}
+
+.visuel {
+  /* à compléter */
+}
+
+.note {
+  /* à compléter */
+}
+
+.action {
+  /* à compléter */
+}
+
+.legende {
+  /* à compléter */
+}
+
+.detail {
+  /* à compléter */
+}
+
+.suite {
+  /* à compléter */
+}
+
+@media (min-width: 1024px) {
+  body {
+    /* à compléter */
+  }
+
+  .layout {
+    /* à compléter */
+  }
+
+  .layout-b {
+    /* à compléter */
+  }
+}
